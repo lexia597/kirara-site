@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FakeCrime | Kirara</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-bg: #000;
+      --text-color: #fff;
+      --accent: #ff2cc3;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: var(--main-bg);
+      color: var(--text-color);
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .bio {
+      max-width: 600px;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+    .links a {
+      display: block;
+      margin: 0.5rem auto;
+      text-decoration: none;
+      color: var(--accent);
+      font-size: 1.2rem;
+    }
+    .spotify {
+      margin-top: 2rem;
+    }
+    @media screen and (max-width: 600px) {
+      .bio {
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://your-image-link.com/avatar.jpg" alt="Avatar" class="avatar" />
+  <div class="bio">
+    <p>oi, eu sou Kirara 💜<br />
+    escrevendo crimes falsos pela internet desde 2023.<br />
+    confira meus projetos abaixo:</p>
+  </div>
+  <div class="links">
+    <a href="https://open.spotify.com/user/kirara" target="_blank">Spotify</a>
+    <a href="https://instagram.com/youruser" target="_blank">Instagram</a>
+    <a href="https://linktr.ee/youruser" target="_blank">Linktree</a>
+  </div>
+  <div class="spotify">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4dyzvuaRJ0n?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+</body>
+</html>
